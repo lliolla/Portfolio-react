@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     box-sizing: 0;
+     list-style: none;
+     text-decoration: none;
+}
+/* declare css variable */
+:root{
+--color-bg:#1f1f38;
+--color-bg-variant:#2c2c6c;
+--color-primary:#4db5ff;
+--color-primary-variant:rgba(77,181,255,0.4);
+--color-white:#fff;
+--color-light:rgba(255,255,255,0.6);
+
+--container-widht-lg:75%;
+--container-widht-md:86%;
+--container-widht-sm:90%;
+}
+
+html{
+  scroll-behavior: smooth;   /* comportement du défilement pour une boîte de défilement */
+}
+/* attention n'est pas supporté par tous les navigateurs*/
+/* permet de modifier le style de la barre de défilement associée à un élément */
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
